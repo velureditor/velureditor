@@ -43,6 +43,10 @@ export const routes: RouteRecord[] = [
         Component: React.lazy(() => import('./pages/Privacy')),
       },
       {
+        path: 'refund-policy',
+        Component: React.lazy(() => import('./pages/RefundPolicy')),
+      },
+      {
         path: 'blog',
         Component: React.lazy(() => import('./pages/Blog')),
       },
